@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(255, 225, 247);
+}
+
+h1 {
+    padding-bottom: 40px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.btn-add {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(36, 195, 49);
+    transition: background .3s ease-in-out;
+}
+
+.btn-add:hover {
+    background-color: rgb(36, 195, 49);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(195, 36, 36);
+    margin-right: 10px;
+    transition: background .3s ease-in-out;
+}
+
+.btn-delete:hover {
+    background-color: rgb(195, 36, 36);
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color: rgb(255, 225, 247);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
